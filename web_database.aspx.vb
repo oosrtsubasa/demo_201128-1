@@ -75,7 +75,7 @@ Partial Class web_database
         Dim dt As New DataSet
         Try
             Try
-                Conn.ConnectionString = "Data Source=francisdb01.cm3gj9gzolln.us-east-1.rds.amazonaws.com;Initial Catalog=super_market;Persist Security Info=True;User ID=francislft;Password=francislft"
+                Conn.ConnectionString = "database-1.cnj2pb1hhz3z.us-east-1.rds.amazonaws.com;Initial Catalog=super_market;Persist Security Info=True;User ID=S09770015;Password=S09770015"
                 Conn.Open()
                 Dim Cmd As New SqlCommand(SQL, Conn)
                 Cmd.CommandTimeout = "300"
